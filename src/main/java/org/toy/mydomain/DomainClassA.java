@@ -1,4 +1,4 @@
-package org.toy.domain;
+package org.toy.mydomain;
 
 import java.util.Collection;
 import java.util.LinkedList;
