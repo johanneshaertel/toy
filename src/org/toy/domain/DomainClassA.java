@@ -8,7 +8,7 @@ public class DomainClassA {
     public Collection<DomainClassB> children;
 
     public DomainClassA() {
-        this.children = new LinkedList<DomainClassB>();
+        this.children = new LinkedList<>();
         this.children.add(new DomainClassB());
     }
 }
