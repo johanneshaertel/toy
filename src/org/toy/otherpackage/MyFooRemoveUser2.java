@@ -7,6 +7,6 @@ import java.util.Collections;
 public class MyFooRemoveUser2 {
 
     public static void main(String[] args) {
-        MyFooRemover.remove(Collections.singletonList("a"));
+        MyFooRemover.removeFoo(Collections.singletonList("a"));
     }
 }
