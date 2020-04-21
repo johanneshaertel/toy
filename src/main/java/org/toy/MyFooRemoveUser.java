@@ -10,7 +10,7 @@ public class MyFooRemoveUser {
 
         list.add("another foo");
 
-        MyFooRemover.removeFoo(list);
+        MyFooAndBarRemover.removeFoo(list);
         
         System.out.println(list);
     }
