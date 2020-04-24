@@ -5,10 +5,10 @@ import java.util.LinkedList;
 
 public class DomainClassA {
 
-    public Collection<DomainClassB> children;
-
     public DomainClassA() {
-        this.children = new LinkedList<>();
-        this.children.add(new DomainClassB());
+        Collection<DomainClassB> children;
+
+        children = new LinkedList<>();
+        children.add(new DomainClassB());
     }
 }
