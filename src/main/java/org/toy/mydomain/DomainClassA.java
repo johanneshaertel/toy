@@ -10,5 +10,12 @@ public class DomainClassA {
 
         children = new LinkedList<>();
         children.add(new DomainClassB());
+
+        for (DomainClassB x : children)
+            x.execute();
+    }
+
+    public void execute() {
+
     }
 }

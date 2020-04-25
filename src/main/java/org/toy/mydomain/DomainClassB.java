@@ -1,4 +1,4 @@
 package org.toy.mydomain;
 
-public class DomainClassB {
+public class DomainClassB extends DomainClassA {
 }
